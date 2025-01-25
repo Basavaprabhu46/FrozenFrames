@@ -189,3 +189,82 @@
     color: #fff;
     font-size: 0.9rem;
   }
+
+
+/* Mobile Styles */
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .navbar {
+      margin-top: 10px;
+    }
+
+    .hero {
+      padding: 50px 20px;
+    }
+
+    .hero h2 {
+      font-size: 2rem;
+    }
+
+    .hero p {
+      font-size: 1rem;
+    }
+
+    .gallery {
+      padding: 30px 20px;
+    }
+
+    .gallery h2 {
+      font-size: 2rem;
+    }
+
+    .potrait {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .about {
+      padding: 30px 20px;
+    }
+
+    .about h2 {
+      font-size: 2rem;
+    }
+
+    .about p {
+      font-size: 1rem;
+    }
+
+    .contact {
+      padding: 30px 20px;
+    }
+
+    .contact h2 {
+      font-size: 2rem;
+    }
+
+    .contact p {
+      font-size: 1rem;
+    }
+
+    .button {
+      padding: 10px 20px;
+      font-size: 0.9rem;
+    }
+
+    .footer {
+      padding: 10px;
+      font-size: 0.8rem;
+    }
+
+    #landscape {
+      padding: 30px 20px;
+    }
+
+    .Landscape {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
