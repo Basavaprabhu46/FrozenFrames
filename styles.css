@@ -10,7 +10,11 @@
     font-weight: normal; /* Optional: Set font weight */
     font-style: normal; /* Optional: Set font style */
   }
-
+  img {
+    pointer-events: none;
+    -webkit-user-drag: none;
+    user-drag: none;
+  }
   @font-face {
     font-family: 'deco'; /* Give your font a name */
     src: url('LexendGiga-VariableFont_wght.ttf') format('truetype'); /* Link the font file */
