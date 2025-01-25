@@ -193,6 +193,11 @@
     color: #fff;
     font-size: 0.9rem;
   }
+  #terms {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.5rem;
+  }
 
 
 /* Mobile Styles */
